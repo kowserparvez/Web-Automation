@@ -1,105 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Extent Report DirectoryC:\Users\Kowser\IdeaProjects\Web-Automation\Amazon\test-output\html]]>
     </line>
     <line>
-      <![CDATA[TestSearch :search Items Test]]>
+      <![CDATA[DropDownMenuSearch: drop Down Search]]>
     </line>
     <line>
-      <![CDATA[SearchPage: searchItemsAndSubmitButton]]>
-    </line>
-    <line>
-      <![CDATA[SearchPage: search For Books]]>
-    </line>
-    <line>
-      <![CDATA[SearchPage: submit Search Button]]>
-    </line>
-    <line>
-      <![CDATA[SearchPage: clear Input]]>
-    </line>
-    <line>
-      <![CDATA[SearchPage: search For Baby]]>
-    </line>
-    <line>
-      <![CDATA[SearchPage: submit Search Button]]>
+      <![CDATA[DropDownMenuSearch: type On Input Search]]>
     </line>
   </reporter-output>
-  <suite name="Amazon Automation Test" duration-ms="31194" started-at="2018-02-21T06:12:21Z" finished-at="2018-02-21T06:12:53Z">
+  <suite name="Amazon Automation Test" duration-ms="31519" started-at="2018-02-28T18:13:12Z" finished-at="2018-02-28T18:13:44Z">
     <groups>
     </groups>
-    <test name="Amazon Home" duration-ms="31194" started-at="2018-02-21T06:12:21Z" finished-at="2018-02-21T06:12:53Z">
-      <class name="search.TestSearch">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:search.TestSearch@63753b6d]" name="setUp" is-config="true" duration-ms="7915" started-at="2018-02-21T01:12:32Z" finished-at="2018-02-21T01:12:39Z">
+    <test name="Amazon Home" duration-ms="31519" started-at="2018-02-28T18:13:12Z" finished-at="2018-02-28T18:13:44Z">
+      <class name="search.DropDownMenuSearch">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="extentSetup" is-config="true" duration-ms="199" started-at="2018-02-28T13:13:12Z" finished-at="2018-02-28T13:13:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://www.amazon.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.TestSearch@63753b6d]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-02-21T01:12:39Z" finished-at="2018-02-21T01:12:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void search.TestSearch.searchItemsTest()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="searchItemsTest()[pri:0, instance:search.TestSearch@63753b6d]" name="searchItemsTest" duration-ms="12209" started-at="2018-02-21T01:12:39Z" finished-at="2018-02-21T01:12:52Z">
-          <reporter-output>
-            <line>
-              <![CDATA[TestSearch :search Items Test]]>
-            </line>
-            <line>
-              <![CDATA[SearchPage: searchItemsAndSubmitButton]]>
-            </line>
-            <line>
-              <![CDATA[SearchPage: search For Books]]>
-            </line>
-            <line>
-              <![CDATA[SearchPage: submit Search Button]]>
-            </line>
-            <line>
-              <![CDATA[SearchPage: clear Input]]>
-            </line>
-            <line>
-              <![CDATA[SearchPage: search For Baby]]>
-            </line>
-            <line>
-              <![CDATA[SearchPage: submit Search Button]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- searchItemsTest -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.TestSearch@63753b6d]" name="afterEachTestMethod" is-config="true" duration-ms="861" started-at="2018-02-21T01:12:52Z" finished-at="2018-02-21T01:12:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchItemsTest status=SUCCESS method=TestSearch.searchItemsTest()[pri:0, instance:search.TestSearch@63753b6d] output=TestSearch :search Items Test]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:search.TestSearch@63753b6d]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-02-21T01:12:53Z" finished-at="2018-02-21T01:12:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-      </class> <!-- search.TestSearch -->
-      <class name="home.SearchMenu">
-        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.SearchMenu@5f9d02cb]" name="extentSetup" is-config="true" duration-ms="236" started-at="2018-02-21T01:12:21Z" finished-at="2018-02-21T01:12:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7e276594]]>
+                <![CDATA[org.testng.TestRunner@61c9c3fd]]>
               </value>
             </param>
           </params>
@@ -109,7 +30,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.SearchMenu@5f9d02cb]" name="setUp" is-config="true" duration-ms="8349" started-at="2018-02-21T01:12:21Z" finished-at="2018-02-21T01:12:30Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="setUp" is-config="true" duration-ms="10042" started-at="2018-02-28T13:13:12Z" finished-at="2018-02-28T13:13:22Z">
           <params>
             <param index="0">
               <value>
@@ -120,41 +41,47 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.SearchMenu@5f9d02cb]" name="startExtent" is-config="true" duration-ms="7" started-at="2018-02-21T01:12:30Z" finished-at="2018-02-21T01:12:30Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="startExtent" is-config="true" duration-ms="25" started-at="2018-02-28T13:13:22Z" finished-at="2018-02-28T13:13:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void home.SearchMenu.test1() throws java.lang.Exception]]>
+                <![CDATA[public void search.DropDownMenuSearch.test() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:home.SearchMenu@5f9d02cb]" name="test1" duration-ms="744" started-at="2018-02-21T01:12:30Z" finished-at="2018-02-21T01:12:30Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="test" duration-ms="20219" started-at="2018-02-28T13:13:22Z" finished-at="2018-02-28T13:13:42Z">
           <reporter-output>
+            <line>
+              <![CDATA[DropDownMenuSearch: drop Down Search]]>
+            </line>
+            <line>
+              <![CDATA[DropDownMenuSearch: type On Input Search]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.SearchMenu@5f9d02cb]" name="afterEachTestMethod" is-config="true" duration-ms="1091" started-at="2018-02-21T01:12:30Z" finished-at="2018-02-21T01:12:32Z">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="afterEachTestMethod" is-config="true" duration-ms="1219" started-at="2018-02-28T13:13:42Z" finished-at="2018-02-28T13:13:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test1 status=SUCCESS method=SearchMenu.test1()[pri:0, instance:home.SearchMenu@5f9d02cb] output={null}]]]>
+                <![CDATA[[TestResult name=test status=SUCCESS method=DropDownMenuSearch.test()[pri:0, instance:search.DropDownMenuSearch@3108bc] output=DropDownMenuSearch: drop Down Search]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.SearchMenu@5f9d02cb]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-02-21T01:12:32Z" finished-at="2018-02-21T01:12:32Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-02-28T13:13:44Z" finished-at="2018-02-28T13:13:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:home.SearchMenu@5f9d02cb]" name="generateReport" is-config="true" duration-ms="26" started-at="2018-02-21T01:12:53Z" finished-at="2018-02-21T01:12:53Z">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="generateReport" is-config="true" duration-ms="31" started-at="2018-02-28T13:13:44Z" finished-at="2018-02-28T13:13:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-      </class> <!-- home.SearchMenu -->
+      </class> <!-- search.DropDownMenuSearch -->
     </test> <!-- Amazon Home -->
   </suite> <!-- Amazon Automation Test -->
 </testng-results>

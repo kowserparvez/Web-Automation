@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Amazon Automation Test]">
+  <parameter name="url" value="https://www.amazon.com"/>
+  <test name="Amazon Home(failed)">
+    <classes>
+      <class name="search.TestSearch">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+          <include name="searchItemsTest"/>
+        </methods>
+      </class> <!-- search.TestSearch -->
+    </classes>
+  </test> <!-- Amazon Home(failed) -->
+</suite> <!-- Failed suite [Amazon Automation Test] -->

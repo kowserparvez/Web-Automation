@@ -187,12 +187,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test1')
 data.setCell(0, 2, 'home.TestHome')
-data.setCell(0, 3, 305);
+data.setCell(0, 3, 32);
 window.suiteTableData['home.TestHome']= { tableData: data, tableDiv: 'times-div-home.TestHome'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 305 ms</span>
+              <span class="suite-total-time">Total running time: 32 ms</span>
               <div id="times-div-home.TestHome">
               </div> <!-- times-div-home.TestHome -->
             </div> <!-- times-div -->
@@ -219,18 +219,34 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">home.TestHome</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@3016fd5e)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(http://www.amazon.com)</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">190 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void home.TestHome.test1())</span>
+                <span class="method-start">9261 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test1</span>
-                <span class="method-start">10298 ms</span>
+                <span class="method-start">9265 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">cleanUp</span>
-                <span class="method-start">10604 ms</span>
+                <span class="method-name">afterEachTestMethod([TestResult name=test1 status=SUCCESS method=TestHome.test1()[pri:0, instance:home.TestHome@5cc7c2a6...)</span>
+                <span class="method-start">9298 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">10348 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">10361 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

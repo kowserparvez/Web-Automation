@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +102,7 @@
                     <div class="method-list-content passed suite-Amazon_Automation_Test">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Amazon_Automation_Test" title="search.TestSearch" hash-for-method="searchItemsTest">searchItemsTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Amazon_Automation_Test" title="home.SearchMenu" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Amazon_Automation_Test" title="search.DropDownMenuSearch" hash-for-method="test">test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Amazon_Automation_Test -->
@@ -125,29 +120,14 @@
           <div class="suite-Amazon_Automation_Test-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">home.SearchMenu</span>
+              <span class="class-name">search.DropDownMenuSearch</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test1">
-                  </a> <!-- test1 -->
-                  <span class="method-name">test1</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Amazon_Automation_Test-class-passed -->
-          <div class="suite-Amazon_Automation_Test-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">search.TestSearch</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchItemsTest">
-                  </a> <!-- searchItemsTest -->
-                  <span class="method-name">searchItemsTest</span>
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -165,8 +145,7 @@
   &lt;parameter name=&quot;url&quot; value=&quot;https://www.amazon.com&quot;/&gt;
   &lt;test name=&quot;Amazon Home&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;home.SearchMenu&quot;/&gt;
-      &lt;class name=&quot;search.TestSearch&quot;/&gt;
+      &lt;class name=&quot;search.DropDownMenuSearch&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Amazon Home --&gt;
 &lt;/suite&gt; &lt;!-- Amazon Automation Test --&gt;
@@ -180,7 +159,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Amazon Home (2 classes)</span>
+                <span class="test-name">Amazon Home (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -206,20 +185,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'searchItemsTest')
-data.setCell(0, 2, 'search.TestSearch')
-data.setCell(0, 3, 12209);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test1')
-data.setCell(1, 2, 'home.SearchMenu')
-data.setCell(1, 3, 744);
+data.setCell(0, 1, 'test')
+data.setCell(0, 2, 'search.DropDownMenuSearch')
+data.setCell(0, 3, 20219);
 window.suiteTableData['Amazon_Automation_Test']= { tableData: data, tableDiv: 'times-div-Amazon_Automation_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Amazon_Automation_Test">
               </div> <!-- times-div-Amazon_Automation_Test -->
             </div> <!-- times-div -->
@@ -231,33 +206,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">searchItemsTest</span>
+              <span class="reporter-method-name">test</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">TestSearch :search Items Test</span>
-                <span class="reporter-method-output">SearchPage: searchItemsAndSubmitButton</span>
-                <span class="reporter-method-output">SearchPage: search For Books</span>
-                <span class="reporter-method-output">SearchPage: submit Search Button</span>
-                <span class="reporter-method-output">SearchPage: clear Input</span>
-                <span class="reporter-method-output">SearchPage: search For Baby</span>
-                <span class="reporter-method-output">SearchPage: submit Search Button</span>
+                <span class="reporter-method-output">DropDownMenuSearch: drop Down Search</span>
+                <span class="reporter-method-output">DropDownMenuSearch: type On Input Search</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Amazon_Automation_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">search.TestSearch</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">generateReport</span>
-                <br/>
-                <span class="ignored-method-name">extentSetup</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Amazon_Automation_Test" class="panel">
@@ -266,60 +227,34 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">home.SearchMenu</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">search.DropDownMenuSearch</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">extentSetup(org.testng.TestRunner@7e276594)</span>
+                <span class="method-name">extentSetup(org.testng.TestRunner@61c9c3fd)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(https://www.amazon.com)</span>
-                <span class="method-start">251 ms</span>
+                <span class="method-start">209 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">startExtent(public void home.SearchMenu.test1() throws java.lang.Exception)</span>
-                <span class="method-start">8600 ms</span>
+                <span class="method-name">startExtent(public void search.DropDownMenuSearch.test() throws java.lang.InterruptedException)</span>
+                <span class="method-start">10251 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">test1</span>
-                <span class="method-start">8607 ms</span>
+                <span class="method-name">test</span>
+                <span class="method-start">10277 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterEachTestMethod([TestResult name=test1 status=SUCCESS method=SearchMenu.test1()[pri:0, instance:home.SearchMenu@5f9d...)</span>
-                <span class="method-start">9352 ms</span>
+                <span class="method-name">afterEachTestMethod([TestResult name=test status=SUCCESS method=DropDownMenuSearch.test()[pri:0, instance:search.DropDow...)</span>
+                <span class="method-start">30497 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">10444 ms</span>
+                <span class="method-start">31716 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">search.TestSearch</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(https://www.amazon.com)</span>
-                <span class="method-start">10445 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">startExtent(public void search.TestSearch.searchItemsTest())</span>
-                <span class="method-start">18360 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">searchItemsTest</span>
-                <span class="method-start">18360 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterEachTestMethod([TestResult name=searchItemsTest status=SUCCESS method=TestSearch.searchItemsTest()[pri:0, instance:...)</span>
-                <span class="method-start">30569 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">cleanUp</span>
-                <span class="method-start">31430 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">home.SearchMenu</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">generateReport</span>
-                <span class="method-start">31450 ms</span>
+                <span class="method-start">31790 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
