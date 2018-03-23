@@ -11,10 +11,12 @@ import java.io.IOException;
 public class Features extends CommonAPI{
     public void signIn(){
         typeByCss("","userName");
+        typeByCss("","password");
         clickByCss("");
     }
     public void registration(){
         typeByCss("","email");
+        typeByCss("","password");
         clickByCss("");
     }
 
