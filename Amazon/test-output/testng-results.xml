@@ -11,12 +11,12 @@
       <![CDATA[DropDownMenuSearch: type On Input Search]]>
     </line>
   </reporter-output>
-  <suite name="Amazon Automation Test" duration-ms="31519" started-at="2018-02-28T18:13:12Z" finished-at="2018-02-28T18:13:44Z">
+  <suite name="Amazon Automation Test" duration-ms="34987" started-at="2018-03-24T00:09:02Z" finished-at="2018-03-24T00:09:37Z">
     <groups>
     </groups>
-    <test name="Amazon Home" duration-ms="31519" started-at="2018-02-28T18:13:12Z" finished-at="2018-02-28T18:13:44Z">
+    <test name="Amazon Home" duration-ms="34987" started-at="2018-03-24T00:09:02Z" finished-at="2018-03-24T00:09:37Z">
       <class name="search.DropDownMenuSearch">
-        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="extentSetup" is-config="true" duration-ms="199" started-at="2018-02-28T13:13:12Z" finished-at="2018-02-28T13:13:12Z">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="extentSetup" is-config="true" duration-ms="192" started-at="2018-03-23T20:09:02Z" finished-at="2018-03-23T20:09:02Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="setUp" is-config="true" duration-ms="10042" started-at="2018-02-28T13:13:12Z" finished-at="2018-02-28T13:13:22Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="setUp" is-config="true" duration-ms="12915" started-at="2018-03-23T20:09:02Z" finished-at="2018-03-23T20:09:15Z">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="startExtent" is-config="true" duration-ms="25" started-at="2018-02-28T13:13:22Z" finished-at="2018-02-28T13:13:22Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="startExtent" is-config="true" duration-ms="21" started-at="2018-03-23T20:09:15Z" finished-at="2018-03-23T20:09:15Z">
           <params>
             <param index="0">
               <value>
@@ -52,7 +52,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="test()[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="test" duration-ms="20219" started-at="2018-02-28T13:13:22Z" finished-at="2018-02-28T13:13:42Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="test" duration-ms="20929" started-at="2018-03-23T20:09:15Z" finished-at="2018-03-23T20:09:36Z">
           <reporter-output>
             <line>
               <![CDATA[DropDownMenuSearch: drop Down Search]]>
@@ -62,7 +62,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="afterEachTestMethod" is-config="true" duration-ms="1219" started-at="2018-02-28T13:13:42Z" finished-at="2018-02-28T13:13:44Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="afterEachTestMethod" is-config="true" duration-ms="1106" started-at="2018-03-23T20:09:36Z" finished-at="2018-03-23T20:09:37Z">
           <params>
             <param index="0">
               <value>
@@ -73,11 +73,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-02-28T13:13:44Z" finished-at="2018-02-28T13:13:44Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="cleanUp" is-config="true" duration-ms="1" started-at="2018-03-23T20:09:37Z" finished-at="2018-03-23T20:09:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="generateReport" is-config="true" duration-ms="31" started-at="2018-02-28T13:13:44Z" finished-at="2018-02-28T13:13:44Z">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:search.DropDownMenuSearch@3108bc]" name="generateReport" is-config="true" duration-ms="51" started-at="2018-03-23T20:09:37Z" finished-at="2018-03-23T20:09:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
